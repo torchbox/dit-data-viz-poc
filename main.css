@@ -23,3 +23,20 @@ h3 {
   padding: 0;
   opacity: 0.75;
 }
+
+.logos {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.logos img {
+  height: 32px;
+  width: auto;
+}
+
+.logos img:first-child {
+  margin-right: 8px;
+  transform: translateY(4px);
+}
